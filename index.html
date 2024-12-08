@@ -9,40 +9,61 @@
 <h1 class="nick">N3vPr0</h1>
 <h2>ArchLinux User</h2>
 <p class="hw">Hello, World</p>
-<a href="https://t.me/N3vPr0"> <img class="icon" src="https://img.icons8.com/?size=100&id=63306&format=png&color=000000"></a> <p class="tg">Telegram</p>
+<a href="https://t.me/N3vPr0"> <img class="icon" src="https://img.icons8.com/?size=100&id=63306&format=png&color=000000"> <span class="tg">Telegram</span>
+</a>
 </body>
-</html><style>body {
- background-color: black;
- color: white;
- font-family: Times New Roman;
+</html><style>
+body {
+  background-color: black;
+  color: white;
+  font-family: Times New Roman;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
 }
+
 .I {
-height: 200px;
-width: 200px;
-border-radius: 200px;
-margin-left: 98px;
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 0px;
 }
+
 .nick {
-text-align: center;
-font-family: Comic Sans MS;
+  text-align: center;
+  font-family: Comic Sans MS;
+  margin-bottom: 10px;
 }
+
 h2 {
- text-align: center;
- font-size: 18px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
+
 .hw {
- text-align: center;
+  text-align: center;
+  margin-bottom: 20px;
 }
+
 .icon {
-width: 25px;
-height: 25px;
-margin-left: 135px;
-margin-top: 5px;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-right: 5px;
 }
+
 .tg {
-text-align: center;
-margin-top: -22px;
+text-decoration: none;
+  color: white;
 }
+
 a {
- display: block;
-}</style>
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
